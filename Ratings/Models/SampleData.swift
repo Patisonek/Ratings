@@ -10,7 +10,7 @@ import Foundation
 
 final class SampleData {
     
-    static func generatePlayerData() -> [Player] {
+    static func generatePlayersData() -> [Player] {
         
         return [
         Player (name: "Bill Evans", game: "Tic-Tac-Toe", rating: 4),
