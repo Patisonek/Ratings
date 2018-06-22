@@ -14,6 +14,7 @@ class PlayersViewController: UITableViewController {
     var players = SampleData.generatePlayersData()
     
 }
+
     
 extension PlayersViewController {
     
