@@ -108,7 +108,9 @@
                             <outlet property="delegate" destination="f6b-3y-pBG" id="g2z-F8-y2R"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Players" id="83N-HC-hdO" userLabel="Players"/>
+                    <navigationItem key="navigationItem" title="Players" id="83N-HC-hdO" userLabel="Players">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZnK-vP-P7E"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7vn-Tt-80V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
