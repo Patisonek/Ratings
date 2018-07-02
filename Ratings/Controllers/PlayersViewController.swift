@@ -50,6 +50,10 @@ extension PlayersViewController {
         let indexPath = IndexPath(row: players.count - 1, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
     }
+    
+    @IBAction func cancelToPlayersViewController(_segue: UIStoryboardSegue){
+        
+    }
 
 }
 
